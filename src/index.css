@@ -1,0 +1,77 @@
+:root{
+  font-size: 62.5%;
+  background: #fff;
+}
+*{
+  box-sizing: border-box ;
+  color:#535252;
+  font-family: Tiempos Text,Merriweather,Georgia,Cambria,Times New Roman,Times,serif;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+.primary-text-color{
+  color:#000;
+}
+.primary-color-light{
+  color: #ffb6c1;
+}
+.primary-color-dark{
+  color: #ff8396;
+}
+h1{
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+h2{
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+h3{
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+h4{
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+h5{
+  font-size: 1.7rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+.btn{
+  font-size: 1.8rem;
+  border: thin solid #ffb6c1;
+  color: #ffb6c1;
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  background: #fff;
+  height: 50px;
+}
+.btn:hover{
+  cursor: pointer;
+  transform: translateY(-0.1rem);
+  translate: 150ms;
+  box-shadow: 0 0.4rem  1.4rem 0 #ffb6c1;
+}
+.btn:disabled{
+  box-shadow: none;
+  color: rgba(200, 189, 189);
+  border: thin solid rgba(200, 189, 189, 0.4);
+  transform: none;
+  translate: none;
+  cursor:no-drop;
+}
+
+
+
